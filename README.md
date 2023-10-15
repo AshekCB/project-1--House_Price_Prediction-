@@ -1,1 +1,106 @@
-# project-1--House_Price_Prediction-
+House Price Prediction Using Linear Regression
+
+
+Table of Contents
+
+1.Introduction
+	1.1 Purpose of the Manual
+	1.2 Project Overview
+
+2.Preparing the Environment
+	2.1 Software and Libraries
+	2.2 Dataset
+	2.3 Data Preprocessing
+
+3.Exploratory Data Analysis (EDA)
+	3.1 Data Visualization
+	3.2 Handling Missing Data
+
+4.Feature Engineering
+	4.1 Feature Selection
+	
+5.Model Selection and Training
+	5.1 Linear Regression Overview
+	5.2 Training-Testing Split
+	5.3 Training the Linear Regression Model
+
+6.Model Evaluation
+	6.1 Evaluation Metrics
+
+7.Conclusion.
+
+
+
+
+1. Introduction
+1.1 Purpose of the Manual
+
+The purpose of this manual is to guide you through the process of creating a House Price Prediction model using Linear Regression. It provides step-by-step instructions on preparing the environment, data preprocessing, exploratory data analysis, feature engineering, model selection, training, evaluation.
+
+1.2 Project Overview
+
+The objective of this project is to predict house prices based on various features related to the houses, such as 'area','bedrooms','bathrooms',
+'stories','mainroad','guestroom', 
+'basement', 'hotwaterheating', 'airconditioning',
+'parking', 'prefarea', 'furnishingstatus'].
+ We'll use Linear Regression, a commonly used algorithm for regression tasks, to build our predictive model.
+
+2. Preparing the Environment
+
+2.1 Software and Libraries
+Ensure you have the necessary software installed (e.g., Python ) and libraries like 
+@ scikit-learn,
+@ pandas, 
+@ seaborn for data analysis and machine learning.
+Software IDE :Google Colab.
+
+2.2 Dataset
+"Housing.csv".
+Acquire a dataset containing information about houses and their corresponding prices. Common sources include online repositories or real estate websites.
+eg:Kaggle Website
+
+2.3 Data Preprocessing
+Clean the dataset by handling missing values, removing duplicates, and addressing any anomalies in the data.
+
+3. Exploratory Data Analysis (EDA)
+3.1 Data Visualization
+Visualize the data to understand the distribution of features, relationships, and potential patterns.
+
+3.2 Handling Missing Data
+Impute or remove missing data to ensure the dataset is ready for feature engineering and modeling.
+but in our case there is no missing values available.
+
+4. Feature Engineering
+
+4.1 Feature Selection
+Select relevant features that contribute to predicting house prices effectively.
+e.g.:Depenedent(X) and independent(X)
+
+
+5. Model Selection and Training
+
+5.1 Linear Regression Overview
+
+Linear regression is a fundamental statistical and machine learning technique used to model the relationship between a dependent variable and independent variables.
+Y=mX+c.
+
+Linear regression is a foundational concept in machine learning and serves as a basis for more complex models and techniques. Extensions of linear regression include multiple linear regression (involving more than one independent variable), polynomial regression, and more
+
+
+
+
+5.2 Training-Testing Split
+70-30:Training and testing ratio.
+Split the dataset into training and testing sets to train the model on one and evaluate on the other.
+
+5.3 Training the Linear Regression Model
+Train the Linear Regression model using the training data and the selected features.
+
+6. Model Evaluation
+6.1 Evaluation Metrics
+Evaluate the model's performance using appropriate evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared.
+
+
+7.Conclusion
+
+The house price prediction project successfully leveraged advanced machine learning techniques to accurately estimate property values. Through meticulous data analysis, feature engineering, and model selection, we achieved a reliable predictive model that can assist in making informed real estate decisions. The outcomes demonstrate the potential of machine learning in aiding both buyers and sellers to navigate the housing market with confidence and precision, paving the way for future advancements in property valuation and market forecasting.
